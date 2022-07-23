@@ -123,16 +123,33 @@ letter-spacing: 0.06em;
 color: var(--white-text-color);
 background-color: var(--accent-color);
 }
-.pointer {
-}
+
 .benefits {
 }
-.visually-hidden {
-}
+
 .benefits-title {
+  font-size: 14px;
+line-height: calc(16/14);
+letter-spacing: 0.03em;
+text-transform: uppercase;
+
+color: var(--brand-text-color);
 }
 .benefits-text {
-}
+  font-size: 14px;
+line-height: calc(24/14);
+letter-spacing: 0.03em;
+color: #757575;}
+/* examples */
+
+.examples-title  {
+  font-size: 36px;
+  line-height: calc(42/36);
+  text-align: center;
+  letter-spacing: 0.03em;
+  color: var(--brand-text-color);
+  }
+
 /* accent on link */
     .portfolio-title:hover, .portfolio-title:focus {color: var(--accent-color)}, 
 /* footer */
