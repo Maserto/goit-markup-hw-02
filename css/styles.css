@@ -179,7 +179,7 @@ background-color: #2F303A;
   font-weight: 700;
   font-size: 26px;
   line-height: calc(31/26);
-  color: var(--white-text-color);
+  color: #FFFFFF var(--white-text-color);
 }
 .basement-logo > span {color: var(--accent-color);}
 .basement-adress {
