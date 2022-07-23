@@ -89,6 +89,7 @@ font-weight: 700;
 font-size: 18px;
 line-height: calc(36/18);
 color: var(--brand-text-color);
+letter-spacing: 0.06em
 }
 .portfolio-text {
   font-weight: 400;
