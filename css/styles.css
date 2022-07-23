@@ -144,7 +144,9 @@ color: #757575;}
   color: var(--brand-text-color);
   }
 /* Team */
-
+.team {
+  background-color: #F5F4FA;
+}
 .team-title {
 font-size: 36px;
 line-height: calc(42/36);
