@@ -9,7 +9,8 @@ body {font-family: 'Roboto', sans-serif;
 }
 li {
   list-style-type: none;}
-.link, .logo-link {text-decoration: none;} 
+.link, .logo-link {text-decoration: none;
+} 
 .link:hover, .link:focus {color: var(--accent-color)}
 /*-----------HEADER---------------*/
 .roof {
@@ -24,6 +25,7 @@ li {
 }
 .roof-logo > span {color: var(--accent-color);}
 .roof-item {
+  font-weight: 500;
   font-size: 14px;
   line-height: calc(16/14);
   letter-spacing: 0.02em;
@@ -31,6 +33,7 @@ li {
 }
 /*designation of active page*/
 .roof-item-active {
+  font-weight: 500;
   font-size: 14px;
   line-height: calc(16/14);
   letter-spacing: 0.02em;
@@ -118,6 +121,8 @@ letter-spacing: 0.06em;
 color: var(--white-text-color);
 background-color: var(--accent-color);
 }
+.hero-button:hover, .hero-button:focus {
+background-color: #188CE8}
 
 .benefits {
 }
@@ -155,6 +160,7 @@ letter-spacing: 0.03em;
 color: var(--brand-text-color);
 }
 .team-member {
+  font-weight: 500;
   font-size: 16px;
 line-height: calc(19/16);
 text-align: center;
@@ -169,8 +175,7 @@ text-align: center;
 letter-spacing: 0.03em;
 color: #757575;
 }
-/* accent link */
-    .portfolio-title:hover, .portfolio-title:focus {color: var(--accent-color)}
+
 /* footer */
 .basement {
 background-color: #2F303A;
